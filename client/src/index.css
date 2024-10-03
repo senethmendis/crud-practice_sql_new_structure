@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+form {
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10;
+  align-items: start;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
